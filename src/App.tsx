@@ -9,14 +9,14 @@ import { Searchbar } from './Components/Searchbar';
 import { SmallCard } from './Components/SmallCard';
 import { Footer } from './Components/Footer';
 import { Cadastro } from './Components/Cadastro'
-import { Entrar } from './Components/Entrar';
+import { Entrar } from './Popups/Entrar';
 
 import { smallcards } from "./smallcards"
 
 function App() {
 
   const [ showCadastro, setCadastro ] = useState(false);
-  const [ showEntrar, setEntrar ] = useState(true);
+  const [ showEntrar, setEntrar ] = useState(false);
 
 
   const fechaCadastro = () => {

@@ -3,8 +3,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/sharp-solid-svg-icons";
 
-import { Logo } from './Logo';
-import { BotaoGenerico } from './BotaoGenerico';
+import { Logo } from '../../Components/Logo';
+import { BotaoGenerico } from '../../Components/BotaoGenerico';
+
+import "./index.css"
 
 interface propsType {
     fechaEntrar: () => void;

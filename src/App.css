@@ -60,20 +60,18 @@ body {
   animation: la-vem 0.5s infinite alternate;  
 }
 
-#header {
+/* #header {
   display: flex;
   justify-content: space-between;
   background-color: var(--fundo-primario);
   border-bottom: 1px solid var(--cor-borda);
   position: fixed;
-  /* margin-top: 0; */
   width: 100vw;
   top: 0;
 }
 
 #header-centro {
   display: flex;
-  /* border: 2px solid green; */
 }
 
 #header-direito {
@@ -84,7 +82,6 @@ body {
 }
 
 #logo {
-  /* border: 2px solid red; */
   width: 2.5vw;
   filter: invert(98%) sepia(85%) saturate(27%) hue-rotate(169deg) brightness(116%) contrast(92%);
 }
@@ -98,11 +95,10 @@ body {
   color: whitesmoke;
   font-size: 20px;
   padding: 10px 10px;
-  /* border: 2px solid blue; */
   text-align: center;
   margin: auto 0;
 
-}
+} */
 
 /* BOTAO GENERICO */
 /*
@@ -424,7 +420,7 @@ footer {
 }
 
 /* ENTRAR */
-#entrar {
+/* #entrar {
   background-color: var(--fundo-secundario);
   width: var(--entrar-width);
   height: var(--entrar-height);
@@ -464,7 +460,6 @@ footer {
 
 #entrar p {
   color: var(--cor-texto-cadastro);
-  /* color: blue; */
 }
 
 #entrar-esqueceu-senha {
@@ -484,7 +479,7 @@ footer {
   position: absolute;
   right: 10px;
   top: 5px;
-}
+} */
 
 /* LOGO */
 .logo {

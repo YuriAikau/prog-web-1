@@ -41,7 +41,7 @@ export const Header = (props: propsType) => {
             
             {/* caso nao logado mostra botoes de logar, caso contrario mostra botoes de perfil */}
             {logado ?
-                <div className="header-direito">
+                <div id="header-direito">
                     <p 
                         className="nome-usuario pop-up-opcoes-login"
                         onClick={() => setMostraDropDown(anterior => !anterior)}
